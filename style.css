@@ -1,0 +1,19 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.layout {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 16px;
+    with: 100%;
+    max-width: 960px;
+}
+.card {
+    flex: 1 1 200px;
+    padding: 20px;
+    text-align: center;
+}
